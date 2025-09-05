@@ -1,0 +1,22 @@
+:root {
+  --orange: #ffcc66;
+  --green: #009933;
+  --red: #cc3300;
+  --light: #f2f2f2;
+}
+
+.grand-parent-div{
+  height: 200px;
+  width: 200px;
+  background-color: var(--orange);
+  .parent-div{
+    height: 150px;
+    width: 150px;
+    background-color: var(--green);
+    .child-div{
+      height: 100px;
+      width: 100px;
+      background-color: var(--red);
+    }
+  }
+}

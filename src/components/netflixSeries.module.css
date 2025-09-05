@@ -1,0 +1,41 @@
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  list-style: none;
+  gap: 2rem;
+}
+
+.netflix-card {
+  width: 20%;
+  height: -webkit-fill-available;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 2%;
+  img{
+    width: 100%;
+  }
+}
+
+.netflix-card-content{
+  padding: 0 0.6rem 0.6rem 0.6rem;
+}
+
+
+.rating{
+  padding: 6px 10px;
+  margin: 0 0 0 8px;
+  border-radius: 35%;
+  font-size: 15px;
+}
+
+.orange{
+  background-color: #ffcc66;
+}
+
+.green{
+  background-color: #009933;
+}

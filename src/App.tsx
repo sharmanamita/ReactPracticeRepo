@@ -1,6 +1,8 @@
 import './App.css'
+import DerivedState from './components/derivedState'
 // import EventHandling from './components/eventHandling'
-import EventPropagation from './components/eventPropagation'
+// import EventPropagation from './components/eventPropagation'
+// import { State } from './components/state'
 
 function App() {
   // const [count, setCount] = useState<number>(0);
@@ -10,7 +12,9 @@ function App() {
   return (
     // <NetflixSeries />
     // <EventHandling />
-    <EventPropagation />
+    // <EventPropagation />
+    // <State />
+    <DerivedState />
   )
 }
 

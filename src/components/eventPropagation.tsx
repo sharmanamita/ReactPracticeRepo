@@ -14,8 +14,9 @@ const EventPropagation = () => {
         >
           <div
             className="child-div"
-            onClickCapture={() => {// to do capturing phase
+            onClickCapture={(e) => {// to do capturing phase
               console.log("Child Clicked");
+              e.stopPropagation();// this will stop the event bubbling to parent and grand parent
             }}
             // onClick={(e) => {
             //   e.stopPropagation();// this will stop the event bubbling to parent and grand parent
